@@ -55,19 +55,3 @@ gcc -Wall -Wextra -std=c11 *.c -o demo && ./demo
 
 Open `data/sample-telemetry.jsonl` to inspect representative console output. This is
 useful when validating your hardware wiring or cloud logging pipeline.
-
-## Additional Notes (Legacy Content)
-
-# Control PIC Microcontroller using a GUI via USB or RS232
-
-- Course: Control PIC Microcontroller using a GUI via USB or RS232
-- Author: Ashraf S A AlMadhoun
-- Link: https://www.udemy.com/course/pic-microcontroller-graphical-user-interface-usb-serial-rs232-control/?couponCode=JULYMAXDICOUNT
-
-## Overview
-
-Build a PC GUI to send commands over USB/serial to control PIC hardware.
-
-## Purchase With Discount
-
-Enroll using the link above to get a discounted price and create interactive control panels.

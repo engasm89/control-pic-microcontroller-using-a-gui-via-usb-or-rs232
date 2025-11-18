@@ -6,6 +6,14 @@
  * Notes: Auto-generated metadata block (2025-11-18)
  */
 
+/*
+ * Course: Control Pic Microcontroller Using A Gui Via Usb Or Rs232
+ * Platform: PIC Microcontroller
+ * Author: Ashraf S A AlMadhoun
+ * Purpose: Auto-generated metadata block to document the learning goals.
+ * Notes: Auto-generated metadata block (2025-11-18)
+ */
+
 #include <stdio.h> // Include I/O for PIC GUI logs
 
 // Main routine: orchestrates the control pic microcontroller using a gui via usb or rs232 scenario
