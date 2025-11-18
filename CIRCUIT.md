@@ -1,19 +1,16 @@
-# PIC + GUI — Interface Diagram
+# Control Pic Microcontroller Using A Gui Via Usb Or Rs232 — Circuit Notes
 
-- Course: Control PIC Microcontroller using a GUI via USB or RS232
-- Author: Ashraf S A AlMadhoun
-- Link: https://www.udemy.com/course/pic-microcontroller-graphical-user-interface-usb-serial-rs232-control/?couponCode=JULYMAXDICOUNT
+| Signal | Suggested Pin | Notes |
+| --- | --- | --- |
+| Sensor Input | A0 / GPIO | Adjust according to the PIC Microcontroller board you own. |
+| Actuator Output | D9 / PWM Pin | Use a transistor/driver for high-current loads. |
+| Status LED | D13 or onboard LED | Mirrors the runtime state for quick debugging. |
 
-## Connections
+## Wiring Checklist
 
-- PC GUI -> USB/RS232 -> PIC UART -> GPIO/relays.
+1. Power rails first (5V / 3.3V and GND).
+2. Route sensor outputs to the analog/digital pin noted above.
+3. Add current-limiting resistors where appropriate.
+4. Double-check common grounds between modules and the development board.
 
-## Diagram (ASCII)
-
-```
-GUI -> USB/RS232 -> PIC -> Outputs
-```
-
-## Purchase With Discount
-
-Get a discounted price and control devices visually — use the link above.
+Refer to the course lecture for the exact schematic; reuse these notes as a quick reference.
